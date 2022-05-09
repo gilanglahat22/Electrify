@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  runner:
+    image: gitlab/gitlab-runner:latest
+    volumes:
+      - gitlab-runner:/etc/gitlab-runner
+      - /var/run/docker.sock:/var/run/docker.sock
+    container_name: electrify-runner
+  mariadb:
+    image: mariadb:latest
+    container_name: electrify_mariadb
+    ports:
+      - 3307:3306
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+
+volumes:
+  gitlab-runner:
+    name: electrify_runner_data

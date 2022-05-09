@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1119</width>
+    <height>889</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="bgwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1121</width>
+     <height>891</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#bgwidget{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.961, x2:1, y2:0, stop:0 rgba(33, 137, 205, 255), stop:1 rgba(255, 255, 255, 255))};</string>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>150</y>
+      <width>991</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.00568182, y1:0.574, x2:1, y2:0, stop:0 rgba(66, 149, 210, 126), stop:1 rgba(255, 255, 255, 255))</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item alignment="Qt::AlignTop">
+      <widget class="QWidget" name="widget_2" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QWidget" name="imagePro" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>250</width>
+            <height>300</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">image: url(:/icon/icon/91c67156233372f06ea757d322b8ce36_medium.jpg);</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_8" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <item>
+            <widget class="QLabel" name="nameLabel">
+             <property name="text">
+              <string>Produk Name</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_7" native="true">
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <item>
+               <widget class="QLabel" name="label_3">
+                <property name="text">
+                 <string>Stock: </string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="stockLabel">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_6" native="true">
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <item>
+               <widget class="QLabel" name="label_2">
+                <property name="text">
+                 <string>Deskripsi: </string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="descLabel">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_9" native="true">
+             <property name="maximumSize">
+              <size>
+               <width>500</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_5">
+              <item>
+               <widget class="QPushButton" name="BackBtn">
+                <property name="styleSheet">
+                 <string notr="true">QPushButton#BackBtn{
+background-color:rgb(0, 0, 0);
+color:rgba(255,255,255,210);
+border-radius:8px;
+font: 11pt &quot;MS Shell Dlg 2&quot;; color:rgb(255, 255, 255);
+}
+
+QPushButton#BackBtn:hover{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
+}
+
+QPushButton#BackBtn:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150, 123, 111, 255);
+};</string>
+                </property>
+                <property name="text">
+                 <string>Kembali</string>
+                </property>
+                <property name="default">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="CariTeknisiBtn">
+                <property name="styleSheet">
+                 <string notr="true">QPushButton#CariTeknisiBtn{
+background-color:rgb(0, 0, 0);
+color:rgba(255,255,255,210);
+border-radius:8px;
+font: 11pt &quot;MS Shell Dlg 2&quot;; color:rgb(255, 255, 255);
+}
+
+QPushButton#CariTeknisiBtn:hover{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
+}
+
+QPushButton#CariTeknisiBtn:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150, 123, 111, 255);
+};</string>
+                </property>
+                <property name="text">
+                 <string>Cari Teknisi</string>
+                </property>
+                <property name="default">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../1/electrify/src/qrc/pelanggan.qrc"/>
+ </resources>
+ <connections/>
+</ui>

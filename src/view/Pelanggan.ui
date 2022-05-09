@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1119</width>
+    <height>889</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="bgwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1121</width>
+     <height>891</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#bgwidget{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.961, x2:1, y2:0, stop:0 rgba(33, 137, 205, 255), stop:1 rgba(255, 255, 255, 255))};</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>130</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;MS Shell Dlg 2&quot;; color : rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>to Electrify</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>130</y>
+      <width>191</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;MS Shell Dlg 2&quot;; color : rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>Welcome</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PesananAndaBtn">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>640</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#PesananAndaBtn{
+background-color:rgb(0, 0, 0);
+color:rgba(255,255,255,210);
+border-radius:15px;
+font: 12pt &quot;MS Shell Dlg 2&quot;; color:rgb(255, 255, 255);
+}
+
+QPushButton#PesananAndaBtn:hover{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
+}
+
+QPushButton#PesananAndaBtn:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150, 123, 111, 255);
+};</string>
+    </property>
+    <property name="text">
+     <string>Your order</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CariProductBtn">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>640</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#CariProductBtn{
+background-color:rgb(0, 0, 0);
+color:rgba(255,255,255,210);
+border-radius:15px;
+font: 12pt &quot;MS Shell Dlg 2&quot;; color:rgb(255, 255, 255);
+}
+
+QPushButton#CariProductBtn:hover{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
+}
+
+QPushButton#CariProductBtn:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150, 123, 111, 255);
+};</string>
+    </property>
+    <property name="text">
+     <string>Search product</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>220</y>
+      <width>531</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../resources/img/pelanggan.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ExitButton">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>810</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#ExitButton{
+background-color:rgb(0, 0, 0);
+color:rgba(255,255,255,210);
+border-radius:15px;
+font: 12pt &quot;MS Shell Dlg 2&quot;; color:rgb(255, 255, 255);
+}
+
+QPushButton#ExitButton:hover{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
+}
+
+QPushButton#ExitButton:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150, 123, 111, 255);
+};</string>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Help">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>640</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Help{
+background-color:rgb(0, 0, 0);
+color:rgba(255,255,255,210);
+border-radius:15px;
+font: 12pt &quot;MS Shell Dlg 2&quot;; color:rgb(255, 255, 255);
+}
+
+QPushButton#Help:hover{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
+}
+
+QPushButton#Help:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150, 123, 111, 255);
+};</string>
+    </property>
+    <property name="text">
+     <string>Help</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../resources/img/pelanggan.qrc"/>
+ </resources>
+ <connections/>
+</ui>

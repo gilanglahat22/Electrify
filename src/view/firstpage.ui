@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1115</width>
+    <height>879</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="bgwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1121</width>
+     <height>891</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#bgwidget{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.961, x2:1, y2:0, stop:0 rgba(33, 137, 205, 255), stop:1 rgba(255, 255, 255, 255))};</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>110</y>
+      <width>431</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;MS Shell Dlg 2&quot;; color : rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>Welcome to Electrify</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>280</y>
+      <width>351</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;MS Shell Dlg 2&quot;; color : rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Sign in or create new account</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>190</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;MS Shell Dlg 2&quot;; color : rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Our earth is our life!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sign_up">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>550</y>
+      <width>281</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#sign_up{
+background-color:rgb(0, 0, 0);
+color:rgba(255,255,255,210);
+border-radius:25px;
+font: 20pt &quot;MS Shell Dlg 2&quot;; color:rgb(255, 255, 255);
+}
+
+QPushButton#sign_up:hover{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
+}
+
+QPushButton#sign_up:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150, 123, 111, 255);
+};</string>
+    </property>
+    <property name="text">
+     <string>Create new account</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sign_in">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>430</y>
+      <width>281</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#sign_in{
+background-color:rgb(0, 0, 0);
+color:rgba(255,255,255,210);
+border-radius:25px;
+font: 20pt &quot;MS Shell Dlg 2&quot;; color:rgb(255, 255, 255);
+}
+
+QPushButton#sign_in:hover{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
+}
+
+QPushButton#sign_in:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150, 123, 111, 255);
+};</string>
+    </property>
+    <property name="text">
+     <string>Sign in</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
